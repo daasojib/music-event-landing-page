@@ -15,10 +15,11 @@ const TopSingers = () => {
     return (
         <div className='bg-gray-800'>
             <p className='text-white text-3xl text-center py-6 font-serif'>Top Singers</p>
-            <div className='p-10 flex justify-center'>
+            <div className='p-4 md:p-10 lg:px-20 flex justify-center'>
                 <ReactCardSlider slides={slides} />
             </div>
         </div>
+
     );
 };
 
